@@ -36,13 +36,18 @@
 
 6. Some thoughts about mmap (mapping between virtual address and physical address)
 
-    1. the way of mapping of the kernel and a normal process is distinctly different.
-    2. the mapping address of the kernel defined in **kernel/memlayout.h**
-    3. Example: Lab "Speed up system calls"
-        * There is a more virtual address called **USYSCALL** for kernel, it's uesd to map each scheduled process's physical space of the pid.
-        * When each process is created, we assign it a more space for its pid, and we will set pagetable. So we map that address with
-          the kernel's **USYSCALL**.
-        * There is a register for the current schelduld process's pagetable, as we say above, through this pagetable we can use **USYSCALL**
-          to read the scheduled process's pid.
-        * Therefore, the speeding up syscall just read the current process'pid through kernel's **USYSCALL** address instead of being trapped into
+   1. the way of mapping of the kernel and a normal process is distinctly different.
+   2. the mapping address of the kernel defined in **kernel/memlayout.h**
+   3. Example: Lab "Speed up system calls"
+     * There is a more virtual address called **USYSCALL** for kernel, it's uesd to map each scheduled process's physical space of the pid.
+     * When each process is created, we assign it a more space for its pid, and we will set pagetable. So we map that address with
+       the kernel's **USYSCALL**.
+     * There is a register for the current schelduld process's pagetable, as we say above, through this pagetable we can use **USYSCALL**
+       to read the scheduled process's pid.
+     * Therefore, the speeding up syscall just read the current process'pid through kernel's **USYSCALL** address instead of being trapped into
           kernel space.
+
+7. there kinds of event which cause transfer
+   * system call
+   * exception
+   * interrupt
