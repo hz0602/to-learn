@@ -147,3 +147,31 @@ there is an indoor sport that got me through the winter
 when i am sitting in front of the computer, i get really upset and irritable if someone disturbs me.
 
 she can elaborate on this point
+
+does that remind you of something
+
+it was just the intensity of the game
+
+it will inevitably influence your new language learning
+
+try following the my tips and see if you can get some inspiration
+
+correct me if i am wrong
+
+one of those six sons is my grandfather, the fellow who introduced me to computing
+
+he dropped the last name and added an "s" to Torvald on the theory that this made it sound more substantial
+
+he instructed the rival to oversee the loading of the bus. he used the occasion to grab the seat next to my mom
+
+the family tale is that my sister Sara was conceived during one of those conjugal visits
+
+nobody was worried about this kid getting kidnapped
+
+under this circumstances, in this case
+
+this book uses trap as generic term for these situations
+
+while the commonality of the three trap types suggests that a kernel could handle all traps with a single code path
+
+don't (doesn't) do something except(other than) something
